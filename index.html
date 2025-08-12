@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#000" />
+
+    <title>Jayraj Pandav | Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="src/png/jaj.png" />
+    <!-- aos cdn -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- google fonts-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps" />
+
+<body class="body">
+    <audio loop="" id="audioPlayer" style="display: none">
+        <source src="src/mp3/preloader.mp3" type="audio/mp3" />
+    </audio>
+    <div id="preloader"></div>
+    <noscript>Allow Javascript</noscript>
+
+    <header>
+        <div class="cursor-inner" id="cursor-inner"></div>
+        <div class="cursor-outer" id="cursor-outer"></div>
+
+        <div class="navbar" id="navbar">
+            <div class="hey">Hey!</div>
+            <div class="logo" tabindex="0" aria-label="Naimish Varsani logo">
+                <div class="logo-top">
+                    <img src="src/png/nav-avatar1.png" alt="animation-head" id="nav-avatar" />
+                </div>
+            </div>
+            <div class="navbar-tabs" id="navbar-tabs">
+                <ul class="navbar-tabs-ul">
+                    <li class="home activeThistab" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="100">
+                        <a href="#home" tabindex="0" aria-label="Home menu button">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="about" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="300">
+                        <a href="#about" aria-label="about menu button">
+                            AboutMe
+                        </a>
+                    </li>
+
+                    <li class="skills" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
+                        <a href="#skills" aria-label="skills menu button">
+                            Skills
+                        </a>
+                    </li>
+
+                    <li class="projects" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">
+                        <a href="#projects" aria-label="projects menu button">
+                            Projects
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- navbar tabs ends -->
+        </div>
+    </header>
+    <!-- header ends here -->
+
+    <main>
+        <!-- hamburger -->
+        <div class="hamburger" id="hamburger" data-aos="fade">
+            <div class="hamburgerbase">
+                <button id="hamburger-button" onclick="hamburgerMenu()" tabindex="0" aria-label="Menu Button">
+                    <span class="burger-bar" id="burger-bar1"></span>
+                    <span class="burger-bar" id="burger-bar2"></span>
+                    <span class="burger-bar" id="burger-bar3"></span>
+                </button>
+            </div>
+        </div>
+        <!-- hamburger -->
+        <div class="mobiletogglemenu" id="mobiletogglemenu">
+            <ul class="mobile-navbar-tabs-ul" id="mobile-ul">
+                <li id="home-mobile-tab" class="mobile-navbar-tabs-li home activeThismobiletab"
+                    onclick="hidemenubyli()">
+                    <a href="#home" tabindex="0" aria-label="Home menu button">
+                        &#60;/Home&#62;
+                    </a>
+                </li>
+
+                <li id="aboutme-mobile-tab" class="mobile-navbar-tabs-li about" onclick="hidemenubyli()">
+                    <a href="#about" tabindex="0" aria-label="about menu button">
+                        &#60;/AboutMe&#62;
+                    </a>
+                </li>
+                <li id="skills-mobile-tab" class="mobile-navbar-tabs-li skills" onclick="hidemenubyli()">
+                    <a href="#skills" tabindex="0" aria-label="skills menu button">
+                        &#60;/Skills&#62;
+                    </a>
+                </li>
+                <li id="projects-mobile-tab" class="mobile-navbar-tabs-li projects" onclick="hidemenubyli()">
+                    <a href="#projects" tabindex="0" aria-label="projects menu button">
+                        &#60;/Projects&#62;
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- mobile toggle menu ends -->
+
+        <section class="landing-page-container" id="home">
+            <div class="blob"></div>
+
+            <div class="text-content">
+                <article id="hello-friend" data-aos="fade-up" data-aos-delay="0">
+                    <p class="jello">N</p>
+                    <p class="jello">a</p>
+                    <p class="jello">m</p>
+                    <p class="jello">a</p>
+                    <p class="jello">s</p>
+                    <p class="jello">t</p>
+                    <p class="jello">e</p>
+                    <p class="jello">(</p>
+                    <p class="jello">)</p>
+                    <p class="jello">;</p>
+                    &nbsp;
+                    <p class="jello">I</p>
+                    <p class="jello">'</p>
+                    <p class="jello">m</p>
+                </article>
+                <article id="name" data-aos="fade-up" data-aos-delay="200">
+                    <p class="jello">J</p>
+                    <p class="jello">a</p>
+                    <p class="jello">y</p>
+                    <p class="jello">r</p>
+                    <p class="jello">a</p>
+                    <p class="jello">j</p>
+                    &nbsp;
+                    <p class="jello">P</p>
+                    <p class="jello">a</p>
+                    <p class="jello">n</p>
+                    <p class="jello">d</p>
+                    <p class="jello">a</p>
+                    <p class="jello">v</p>
+                    <p class="jello">.</p>
+                </article>
+
+                <article id="work" data-aos="fade-up" data-aos-delay="400">
+                    <div>
+                        <p class="jello">I</p>
+                        <p class="jello">'</p>
+                        <p class="jello">m</p>
+                    </div>
+                    <!--  <div>
+            <p class="jello">U</p>
+            <p class="jello">I</p>
+            <p class="jello">/</p>
+            <p class="jello">U</p>
+            <p class="jello">X</p>
+          </div>-->
+                    <div>
+                        <p class="jello">D</p>
+                        <p class="jello">e</p>
+                        <p class="jello">s</p>
+                        <p class="jello">i</p>
+                        <p class="jello">g</p>
+                        <p class="jello">n</p>
+                        <p class="jello">e</p>
+                        <p class="jello">r</p>
+
+                    </div>
+                    <div>
+                        <p class="jello">&</p>
+                    </div>
+                    <div>
+                        <p class="jello">V</p>
+                        <p class="jello">i</p>
+                        <p class="jello">d</p>
+                        <p class="jello">e</p>
+                        <p class="jello">o</p>
+                    </div>
+                    <div>
+                        <p class="jello">E</p>
+                        <p class="jello">d</p>
+                        <p class="jello">i</p>
+                        <p class="jello">t</p>
+                        <p class="jello">o</p>
+                        <p class="jello">r</p>
+                        <p class="jello">.</p>
+                    </div>
+                </article>
+                <p id="info-para" data-aos="fade-up" data-aos-delay="600">
+                    A UI/UX Designer & Video Editor who creates intuitive digital experiences and compelling video
+                    content.
+                    Skilled in user
+                    research, prototyping, motion graphics, and sound design, I focus on clean aesthetics,
+                    accessibility, and
+                    storytelling
+                    using tools like Figma, Adobe Premiere Pro, and After Effects to enhance engagement and business
+                    impact.<br />
+                    <br />
+                    I value intuitive design, seamless user experiences, and compelling visual storytelling in both
+                    UI/UX design
+                    and video
+                    editing.<br />
+                    <br />
+                </p>
+                <div class="contact-btn-div" data-aos="fade-up" data-aos-delay="800">
+                    <a href="mailto:pandavjayraj4@gmail.com" tabindex="-1">
+                        <button class="letsTalkBtn">
+                            <p class="letsTalkBtn-text">Let's Talk!</p>
+                            <span class="letsTalkBtn-BG"></span>
+                        </button></a>
+                    <div class="setting-container" id="setting-container">
+                        <input type="checkbox" id="switchforsetting" onclick="settingtoggle()" />
+
+                        <label for="switchforsetting" class="needtobeinvert" id="labelforsetting" tabindex="0"
+                            aria-label="settings for sound and appearance"></label>
+
+                        <div class="visualmodetogglebuttoncontainer" id="visualmodetogglebuttoncontainer">
+                            <input type="checkbox" id="switchforvisualmode" onclick="visualmode()" />
+                            <label for="switchforvisualmode" id="labelforvisualmode" tabindex="0"
+                                aria-label="switch appearance"></label>
+                        </div>
+
+                        <div class="soundtogglebuttoncontainer" id="soundtogglebuttoncontainer">
+                            <input type="checkbox" id="switchforsound" onclick="playpause()" />
+                            <label for="switchforsound" id="labelforsound" tabindex="0" aria-label="switch sound"
+                                class="needtobeinvert"></label>
+                        </div>
+                    </div>
+                    <!-- setting div ends -->
+                </div>
+                <!-- contact-btn-div -->
+            </div>
+
+        </section>
+        <!-- landing page ends here -->
+        <section class="about-section-container" id="about" data-aos="fade-up">
+            <div class="about-section">
+                <div class="section-heading">
+                    <h2 class="section-heading-article" tabindex="0" aria-label="About me heading">
+                        &#60;/AboutMe&#62;
+                    </h2>
+                    <p class="sectionHeadingP"></p>
+                </div>
+
+                <div class="info-dp-section">
+                    <div class="about-info">
+                        <p tabindex="0">
+                            Hi! I'm Jayraj Pandav, a UI/UX Designer & Video Editor passionate about crafting engaging
+                            digital
+                            experiences and visually compelling content. I focus on designing intuitive interfaces and
+                            creating
+                            dynamic visuals that connect with audiences. I'm always exploring better ways to blend
+                            design and
+                            storytelling.
+                        </p>
+                        <br />
+                        <p tabindex="0">
+                            I thrive on learning new trends, exploring creativity, and refining impactful storytelling
+                            to contribute
+                            to
+                            organizational success. Over time, I’ve come to love the creative process, from designing
+                            user experiences
+                            to producing
+                            visually stunning videos.
+                        </p>
+                        <br />
+                        <p tabindex="0">
+                            These days, my focus is on building unique, engaging visuals from scratch, bringing fresh
+                            ideas to life
+                            through design
+                            and storytelling.
+                        </p>
+                        <br />
+                        <!-- <p tabindex="0">
+              My main focus these days is creating engaging designs and compelling video content. I love crafting unique
+              visuals from
+              scratch and enjoy bringing new creative ideas to life through design and storytelling.
+            </p> -->
+                        <!-- Resume button -->
+                        <button class="resume-btn" id="resume-btn" onclick="openURL()">
+                            <div class="sign">
+                                <svg viewBox="0 0 640 512">
+                                    <path
+                                        d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z" />
+                                </svg>
+                            </div>
+
+                            <div class="text">Resume</div>
+                        </button>
+                    </div>
+
+                    <div class="dp" data-aos="fade-up">
+                        <img src="src/webp/J-1.jpg" alt="Jayraj Pandav" tabindex="0" aria-label="image of Jayraj" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about section ends  -->
+
+        <section class="skills-section-container" id="skills">
+            <div class="skills-section">
+                <div class="section-heading" data-aos="fade-up">
+                    <h2 class="section-heading-article" tabindex="0" aria-label="skills heading">
+                        &#60;/Skills&#62;
+                    </h2>
+                    <p class="sectionHeadingP"></p>
+                </div>
+
+                <div class="mobile-dev-section">
+                    <h3 class="mobile-dev-heading" data-aos="fade-up" tabindex="0"
+                        aria-label="As a mobile app developer these are the skills i have">
+                    </h3>
+                    <ul class="tech-stack-wrapper">
+                        <li class="tech-stack-box" data-aos="fade-up">
+                            <img src="./src/png/ps.png" alt="Adobe Photoshop skill" class="tech-stack-logo"
+                                style="width: 110px;" />
+                            <span class="tooltip">Adobe Photoshop</span>
+                        </li>
+
+                        <li class="tech-stack-box" data-aos="fade-up">
+                            <img src="./src/png/ai.png" alt="Adobe Illustrator skill" class="tech-stack-logo"
+                                style="width: 110px;" />
+                            <span class="tooltip">Adobe Illustrator</span>
+                        </li>
+                        <li class="tech-stack-box" data-aos="fade-up">
+                            <img src="./src/png/figmalogo.png" alt="Figma skill" class="tech-stack-logo"
+                                style="width: 110px;" />
+                            <span class="tooltip">Figma</span>
+                        </li>
+
+                        <li class="tech-stack-box" data-aos="fade-up">
+                            <img src="./src/png/xd.png" alt="Adobe XD skill" class="tech-stack-logo"
+                                style="width: 110px;" />
+                            <span class="tooltip">Adobe XD</span>
+                        </li>
+
+                        <li class="tech-stack-box" data-aos="fade-up">
+                            <img src="./src/png/ae.png" alt="Adobe After Effects skill" class="tech-stack-logo"
+                                style="width: 110px;" />
+                            <span class="tooltip">Adobe After Effects</span>
+                        </li>
+
+                        <li class="tech-stack-box" data-aos="fade-up">
+                            <img src="./src/png/pr.png" alt="Adobe Premiere Pro skill" class="tech-stack-logo"
+                                style="width: 110px;" />
+                            <span class="tooltip">Adobe Premiere Pro</span>
+                        </li>
+                        <!--  <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/capcut.png" alt="js skill" class="tech-stack-logo" />
+              <span class="tooltip">CapCut</span>
+            </li>-->
+                        <li class="tech-stack-box" data-aos="fade-up">
+                            <img src="./src/png/topaz v.png" alt="Topaz video Enhance Ai skill" class="tech-stack-logo"
+                                style="width: 110px;" />
+                            <span class="tooltip">Topaz video Enhance Ai</span>
+                        </li>
+                        <li class="tech-stack-box" data-aos="fade-up">
+                            <img src="./src/png/topaz g.png" alt="Topaz Gigapixel Ai skill" class="tech-stack-logo"
+                                style="width: 110px;" />
+                            <span class="tooltip">Topaz Gigapixel Ai</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- skills section ends -->
+        <section class="projects-section-container" id="projects">
+            <div class="projects-section-div">
+                <div class="section-heading" data-aos="fade-up">
+                    <h2 class="section-heading-article" tabindex="0" aria-label="My projects starts from here">
+                        &#60;/Projects&#62;
+                    </h2>
+                    <p class="sectionHeadingP"></p>
+                </div>
+                <div class="project-boxes-div">
+                    <div data-aos="fade-up" class="project-box-wrapper">
+                        <div class="project-box project-box2" id="project-box2">
+                            <div class="info-div">
+                                <img src="src/webp/pixlyt.jpg" alt="pixlyt favicon" class="faviconforProject" />
+                                <article class="ProjectHeading">Public Textile Solution</article>
+                                <p class="ProjectDescription">
+                                    Turn your ideas into stunning fabric designs instantly. Our AI Textile Generator
+                                    creates unique
+                                    prints, from floral tapestries to futuristic weaves. Just input your concept or
+                                    upload an image to
+                                    bring your vision to life.
+                                </p>
+                                <div class="project-buttons">
+                                    <a href="https://www.figma.com/design/mWAQVmONDBM8MwPy6FskSq/pts?node-id=0-1&p=f&t=MMuxCWV9Xx3f1M09-0"
+                                        target="_blank" class="cta" aria-label="Visit pixlyt Live">
+                                        <span>Live view</span>
+                                        <svg viewBox="0 0 13 10" height="10px" width="15px">
+                                            <path d="M1,5 L11,5"></path>
+                                            <polyline points="8 1 12 5 8 9"></polyline>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="image-div">
+                                <img src="src/webp/pixlyt.webp" alt="pixlyt preview image" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-box-wrapper" data-aos="fade-up">
+                        <div class="project-box project-box5" id="project-box5">
+                            <div class="info-div">
+                                <img src="src/webp/tattoo.png" alt="ivovpn favicon" class="faviconforProject" />
+                                <article class="ProjectHeading">Tattoo Arc Website & Application</article>
+                                <p class="ProjectDescription">
+                                    Design your story with ink. Discover stunning tattoo ideas, connect with top
+                                    artists, and book your
+                                    next session — all in one powerful app."
+                                </p>
+                                <div class="project-buttons">
+                                    <a href="https://www.figma.com/design/sRHd1vxAPSHnQt0o7qwHF6/tattoo-arc?node-id=0-1&p=f&t=xAAFOxEVAtTvqvfz-0"
+                                        target="_blank" class="cta" aria-label="Visit ivovpn live">
+                                        <span>Live view</span>
+                                        <svg viewBox="0 0 13 10" height="10px" width="15px">
+                                            <path d="M1,5 L11,5"></path>
+                                            <polyline points="8 1 12 5 8 9"></polyline>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="image-div">
+                                <img src="src/webp/ivovpn.webp" alt="ivovpn preview image" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-box-wrapper" data-aos="fade-up">
+                        <div class="project-box project-box2" id="project-box2">
+                            <div class="info-div">
+                                <img src="src/webp/Group 314.png" alt="matsyamitra favicon"
+                                    class="faviconforProjectAquaregia" />
+                                <article class="ProjectHeading">Forex Website & Application</article>
+                                <p class="ProjectDescription">
+                                    Empower your trading with AI-driven insights and real-time guidance. Access market
+                                    updates, expert
+                                    tutorials, and smart tools to stay ahead in Forex.
+                                </p>
+                                <div class="project-buttons">
+                                    <a href="https://www.figma.com/design/9gqqpf5sNuYcDGAvAeZ3cA/forex-website?node-id=0-1&p=f&t=1f6QoPiXqX1dWptB-0"
+                                        target="_blank" class="cta" aria-label="Visit Aquaregia Live">
+                                        <span>Live view</span>
+                                        <svg viewBox="0 0 13 10" height="10px" width="15px">
+                                            <path d="M1,5 L11,5"></path>
+                                            <polyline points="8 1 12 5 8 9"></polyline>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="image-div">
+                                <img src="src/webp/matsyamitra.webp" alt="matsyamitra preview image" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-box-wrapper" data-aos="fade-up">
+                        <div class="project-box project-box5" id="project-box5">
+                            <div class="info-div">
+                                <img src="src/webp/radio.webp" alt="airadio favicon" class="faviconforProject" />
+                                <article class="ProjectHeading">E-com Web&App Design</article>
+                                <p class="ProjectDescription">
+                                    Transform your shopping experience with sleek, user-first designs. From intuitive
+                                    navigation to
+                                    seamless checkout, our
+                                    e-commerce solutions are built to boost sales and delight customers across web and
+                                    app.
+                                </p>
+                                <div class="project-buttons">
+                                    <a href="https://www.figma.com/design/8Ld5BwtGqvxjYYpkMkDafa/e-com-web?node-id=0-1&p=f&t=brgj4Ce3WUo7wE7B-0"
+                                        target="_blank" class="cta" aria-label="Visit pixlyt Live">
+                                        <span>Live view</span>
+                                        <svg viewBox="0 0 13 10" height="10px" width="15px">
+                                            <path d="M1,5 L11,5"></path>
+                                            <polyline points="8 1 12 5 8 9"></polyline>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="image-div">
+                                <img src="src/webp/airadio.webp" alt="airadio preview image" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-box-wrapper" data-aos="fade-up">
+                        <div class="project-box project-box5" id="project-box5">
+                            <div class="info-div">
+                                <img src="src/webp/newsIcon.jpg" alt="news favicon" class="faviconforProject" />
+                                <article class="ProjectHeading">Dashboard Design</article>
+                                <p class="ProjectDescription">
+                                    Your personalized news dashboard unbiased, transparent, and tailored to your
+                                    perspective. See the
+                                    story, the source,
+                                    and the slant, all in one view.
+                                </p>
+                                <div class="project-buttons">
+                                    <a href="https://www.figma.com/design/7UAWUYEHK9X3aM43JB6R4R/Dash-Board-Design?node-id=0-1&p=f&t=sdBHjmxPlQIrLKqc-0"
+                                        target="_blank" class="cta" aria-label="Visit pixlyt Live">
+                                        <span>Live view</span>
+                                        <svg viewBox="0 0 13 10" height="10px" width="15px">
+                                            <path d="M1,5 L11,5"></path>
+                                            <polyline points="8 1 12 5 8 9"></polyline>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="image-div">
+                                <img src="src/webp/news.png" alt="airadio preview image" />
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <!-- ---------------------- -->
+
+                    <!-- ---------------------- -->
+                    <div class="project-box-wrapper" data-aos="fade-up">
+                        <div class="project-box project-box4" id="project-box4">
+                            <div class="info-div">
+                                <img src="src/webp/images.png" alt="djlobo favicon" class="faviconforProject" />
+                                <article class="ProjectHeading">Creative Design Works</article>
+                                <p class="ProjectDescription">
+                                    A mix of client projects and personal experiments in graphic design, focusing on
+                                    clean composition,
+                                    vibrant colors, and strong messaging.
+                                </p>
+                                <div class="project-buttons">
+                                    <a href="https://www.figma.com/design/WkNe1iFzzG3eqoxGHX5jqD/GRAPHIC-DESIGN?node-id=1-220&t=JlFc3F35Te8ittxR-0"
+                                        target="_blank" class="cta" aria-label="Visit qr generator live">
+                                        <span>Live view</span>
+                                        <svg viewBox="0 0 13 10" height="10px" width="15px">
+                                            <path d="M1,5 L11,5"></path>
+                                            <polyline points="8 1 12 5 8 9"></polyline>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="image-div">
+                                <img src="src/webp/GD.png" alt="djlobo preview image" />
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ---------------------- -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- main ends here -->
+
+    <footer id="footer">
+        <button class="fas" id="backtotopbutton" onclick="scrolltoTopfunction()">
+            <article aria-label="Back to top">&#8592;BACK TO TOP</article>
+        </button>
+        <div class="footer-background">
+            <div class="footer-blob"></div>
+        </div>
+        <div class="footer-foreground">
+            <div class="footercontainer">
+                <div class="two-words">
+                    <article tabindex="0" aria-label="Learning, Living, and Leveling Up, my quote">
+                        "Focus, Flow, and Fly."
+                    </article>
+                </div>
+                <div class="social-media-container">
+                    <div class="getintouch-heading">
+                        <article>GetinTouch();</article>
+                    </div>
+                    <div class="logos">
+                        <a href="https://www.instagram.com/jayraj.pandav/" target="_blank" tabindex="0"
+                            aria-label="My instagram"><svg viewBox="0 0 448 512" class="SocialHandle">
+                                <path
+                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                            </svg></a>
+
+                        <a href="https://www.linkedin.com/in/jayraj-pandav-87135a31b/" target="_blank"
+                            aria-label="My Linkdin"><svg class="SocialHandle" viewBox="0 0 448 512">
+                                <path
+                                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                            </svg></a>
+                        <a href="https://www.behance.net/jayrajpandav" target="_blank" aria-label="My G mail"><svg
+                                id="GmailLogo" viewBox="0 0 512 512">
+                                <path
+                                    d="M212.036 240.906c10.719-5.438 18.812-11.5 24.312-18.124 9.843-11.813 14.765-27.468 14.765-46.905 0-18.874-4.891-35.092-14.624-48.623-16.202-22.029-43.717-33.343-82.543-33.904H.015v318.487h143.493c16.203 0 31.186-1.406 45.014-4.313 13.827-2.875 25.827-8.22 36.014-16 8.999-6.75 16.515-15.125 22.529-25.063 9.469-14.999 14.203-31.903 14.203-50.778 0-18.313-4.155-33.843-12.422-46.654-8.28-12.841-20.545-22.216-36.81-28.123zM63.543 148.628h69.278c15.25 0 27.811 1.688 37.639 5 11.39 4.75 17.109 14.563 17.109 29.405 0 13.343-4.313 22.687-12.937 27.968-8.625 5.25-19.843 7.875-33.686 7.875H63.543zm109.589 202.273c-7.687 3.75-18.452 5.595-32.264 5.595H63.543v-84.903h78.402c13.656.156 24.265 1.938 31.811 5.406 13.531 6.219 20.28 17.563 20.28 34.154.001 19.594-6.952 32.844-20.904 39.748zM330.952 112.536h127.994v30.749H330.952zM509.912 263.468c-2.875-18.499-9.155-34.717-18.78-48.717-10.718-15.874-24.278-27.499-40.717-34.842-16.405-7.343-34.873-11.031-55.372-11.031-34.514 0-62.591 10.906-84.215 32.655-21.624 21.781-32.451 53.061-32.451 93.872 0 43.529 11.969 74.966 35.938 94.277 23.968 19.313 51.605 28.968 82.949 28.968 37.967 0 67.526-11.438 88.619-34.343 11.03-11.75 18.124-23.344 21.279-34.748H441.01c-2.438 3.279-5.029 6.094-7.875 8.404-8.747 7.188-20.122 10.78-34.186 10.78-13.233 0-24.515-2.938-33.936-8.874-15.471-9.5-23.655-26.063-24.642-49.688h171.54c.314-20.338-.374-35.901-1.999-46.713zm-168.022 6.094c2.25-15.312 7.7-27.468 16.403-36.436 8.702-8.968 20.952-13.468 36.779-13.468 14.499 0 26.687 4.219 36.498 12.687 9.813 8.469 15.313 20.875 16.405 37.217z">
+                                </path>
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="footer-avatar-container">
+                    <img src="src/png/Jayraj.png" alt="animation-head" class="footer-avatar-img"
+                        id="footer-wala-avatar" />
+                    <img src="src/png/JAYRAJ-2.png" alt="animation-head" class="footer-avatar-img-1"
+                        id="footer-wala-avatar" />
+                    <div class="footer-avatar-face">
+                        <div class="footer-avatar-eye footer-left-eye">
+                            <div class="footer-pupil"></div>
+                        </div>
+                        <div class="footer-avatar-eye footer-right-eye">
+                            <div class="footer-pupil"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <article>
+                        Design & Developed by Jayraj Pandav
+                        &#169; twentytwentyfive
+                    </article>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends here -->
+
+    <script src="main.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        function openURL() {
+            var url = "src/pdf/Jayraj Pandav.pdf";
+
+            window.open(url, "_blank");
+        }
+    </script>
+
+    <script>
+        const cursorInner = document.getElementById("cursor-inner");
+        const cursorOuter = document.getElementById("cursor-outer");
+        const links = document.querySelectorAll("a,label,button");
+
+        document.addEventListener("mousemove", function (e) {
+            const posX = e.clientX;
+            const posY = e.clientY;
+
+            cursorInner.style.left = `${posX}px`;
+            cursorInner.style.top = `${posY}px`;
+
+            // cursorOuter.style.left = `${posX}px`;
+            // cursorOuter.style.top = `${posY}px`;
+
+            cursorOuter.animate(
+                {
+                    left: `${posX}px`,
+                    top: `${posY}px`,
+                },
+                { duration: 500, fill: "forwards" }
+            );
+
+            links.forEach((link) => {
+                link.addEventListener("mouseenter", () => {
+                    cursorInner.classList.add("hover");
+                    cursorOuter.classList.add("hover");
+                });
+                link.addEventListener("mouseleave", () => {
+                    cursorInner.classList.remove("hover");
+                    cursorOuter.classList.remove("hover");
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
